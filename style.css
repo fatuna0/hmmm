@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'tt';
+  src: url(Sv.ttf);
+}
+html,body{
+  background-image: url(bbg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  cursor: url('cursorcopy.svg');
+}
+#lock{
+  width: 400px;
+  height: 100px;
+  top: 50%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: flex;
+}
+#hh2{
+  list-style: none;
+  width: 85px;
+}
+#submit{
+  position: absolute;
+  top: 10px;
+  width: 30px;
+  height: 35px;
+  background-color: rgb(252, 240, 6);
+}
+.nbInput{
+  width: 50px;
+  height:50px;
+  text-align: center;
+  align-items: center;
+  font-family: 'tt';
+  font-size: 60px;
+  padding:8px;
+}
+#im{
+  width:550px;
+  position: absolute;
+  top:23%;
+  left:32%;
+}
